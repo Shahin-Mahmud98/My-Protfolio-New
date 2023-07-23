@@ -1,0 +1,204 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Handlee', cursive; */
+font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+/* .hr-style{
+    border: 100px dotted rgb(17, 17, 17);
+    border-bottom: none;
+    width: 50px;
+} */
+
+header{
+    background-image: url("images/background\ ing.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background: #2980b9;
+ color: white;
+   transform: scale(1.1);
+
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7,101,189,0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
+}
+#features{
+    padding: 5% 10%;
+    background: #0e0d0d;
+}
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-col h5{
+    color: white;
+}
+.features-col p{
+    color: white;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #dba0d6;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* Button tutorial */
+.tutorial:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.youtube:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* Personal Info */
+.download:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* ABout me  */
+#about-me{
+    padding: 4% 10%;
+    background: #0e0d0d;
+    color: white;
+}
+
+#about-me p{
+   font-size: 0.9rem;
+   margin-bottom: 0;
+   font-weight: light; 
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter; 
+    color: black;
+    text-decoration: underline;
+ }
+
+ /* achievement desc */
+ .achieve-desc span{
+    font-weight: 700 !important;
+ }
+
+ /* Tutorial Part */
+ /* .section-title{
+    padding: 4% 10%;
+    background: #353434; */
+ }
+ .star i{
+    width: 20px;
+    color: chartreuse;
+ }
+
+ /* Tutorial Start */
+ #tutorial{
+    padding: 4% 10%;
+    background: #4b4a4a;
+ }
+ .card{
+    transition: .4s;
+    border: 1px solid #2980b9;
+ }
+ .card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    
+ }
+ /* Tutorial End */
+
+ /* feedback start */
+ #feedback{
+    padding: 5%;
+    background: #536353;
+ }
+ .carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 1rem;
+ }
+ .feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+ }
+ /* feedback ends */
+/* For Contact start */
+#contact{
+    padding: 2% 10%;
+    background: #1b1b1b;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* For contact ends */
+/* Footer Start */
+footer{
+    padding: 1% 10%;
+    background: #303131;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+
+}
+footer a:hover{
+    color: #0e0d0d;
+}
+/* Footer End */
+
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0.7);
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+      
+        
+    }
+    
+}
